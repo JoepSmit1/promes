@@ -1,0 +1,36 @@
+body{
+    background-image: url("politie.jpg");
+    background-size: cover;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+    color: white;
+}
+
+.grid {
+    width: 612px;
+    height: 612px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid white 2px;
+
+}
+
+.promes{
+    background-image: url("promes.png");
+    background-size: cover;
+}
+
+
